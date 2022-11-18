@@ -1,0 +1,6 @@
+{
+    "name": "Performance profiler",
+    "files": [
+        "ATON.plugin.prof.js"
+    ]
+}
