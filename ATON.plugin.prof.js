@@ -1,3 +1,13 @@
+/*
+    ATON Performance profiler
+    
+    Allows to track, record and generate reports about real-time performances.
+    Requires url parameter rdur=<duration_in_seconds> to start
+    E.g.: rdur=10
+
+    author: bruno.fanini_AT_gmail.com
+
+===========================================================*/
 window.addEventListener('load',() => {
 
     let TR = new ATON.Plugin();
