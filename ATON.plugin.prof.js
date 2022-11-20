@@ -35,7 +35,7 @@ window.addEventListener('load',() => {
     TR.setup = ()=>{
         TR.reset();
 
-        ATON.App._id = "_prof";
+        //ATON.App._id = "_prof";
 
         TR._rMax = parseInt(rdur);
 
@@ -49,7 +49,7 @@ window.addEventListener('load',() => {
 
             if (b){
                 if (TR._sid !== undefined) TR._fname = "profile-"+TR._sid+"-xr.csv";
-                TR._fname = "profile-xr.csv";
+                else TR._fname = "profile-xr.csv";
             }
         });
     };
