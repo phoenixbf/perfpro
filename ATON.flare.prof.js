@@ -10,7 +10,7 @@
 ===========================================================*/
 window.addEventListener('load',() => {
 
-    let TR = new ATON.Plugin();
+    let TR = new ATON.Flare();
 
     let PP   = new URLSearchParams(window.location.search);
     let rdur = PP.get('rdur');
@@ -104,5 +104,5 @@ window.addEventListener('load',() => {
         TR._rCount++;
     };
 
-    ATON.registerPlugin( TR );
+    ATON.addFlare( TR );
 });
