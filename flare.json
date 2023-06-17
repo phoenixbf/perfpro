@@ -1,6 +1,14 @@
 {
     "name": "Performance profiler",
-    "files": [
-        "ATON.flare.prof.js"
-    ]
+
+    "client":{
+        "files": [
+            "ATON.flare.prof.js"
+        ]
+    },
+    "server":{
+        "modules":[
+            "routes.js"
+        ]
+    }
 }
